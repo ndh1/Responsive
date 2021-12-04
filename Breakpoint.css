@@ -15,19 +15,19 @@ body{
 
 }
 /* Mobile */
-@media screen and (max-width: 739px) {
+@media screen and (max-width: 46.1875em) {
    .Mobile{
        display: flex;
    }
 }
 /* Tablet */
-@media screen and (min-width: 740px) and (max-width: 1023px) {
+@media screen and (min-width: 46.25em) and (max-width: 63.9375em) {
     .Tablet{
         display: flex;
     }
 }
 /* PC */
-@media screen and (min-width: 1024px)
+@media screen and (min-width: 64em)
 {
     .PC{
         display: flex;
