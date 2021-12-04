@@ -1,0 +1,35 @@
+body{
+    background-color: moccasin;
+    display: flex;
+    height: 100vh;
+}
+
+.Mobile,
+.PC,
+.Tablet
+{
+    display: flex;
+    margin: auto;
+    font-size: 100px;
+    display: none;
+
+}
+/* Mobile */
+@media screen and (max-width: 739px) {
+   .Mobile{
+       display: flex;
+   }
+}
+/* Tablet */
+@media screen and (min-width: 740px) and (max-width: 1023px) {
+    .Tablet{
+        display: flex;
+    }
+}
+/* PC */
+@media screen and (min-width: 1024px)
+{
+    .PC{
+        display: flex;
+    }
+}
